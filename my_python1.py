@@ -1,27 +1,15 @@
 #!/usr/bin/env python3
 """
-Simple Python program example
+Very basic Python program for Jenkins
 """
 
-def main():
-    print("🚀 Starting Python Program!")
-    print(f"Python version: 3.x")
+print("⭐ Starting Basic Python Program!")
+print("This is a simple automated program")
 
-    # Get user input
-    name = input("Enter your name: ")
-    print(f"Hello, {name}!")
+# Perform some calculations
+a = 15
+b = 25
+result = a + b
 
-    # Simple calculation
-    try:
-        num1 = float(input("Enter first number: "))
-        num2 = float(input("Enter second number: "))
-       result = num1 + num2
-        print(f"The sum of {num1} and {num2} is: {result}")
-    except ValueError:
-        print("Please enter valid numbers!")
-
-    print("✅ Program completed successfully!")
-
-if __name__ == "__main__":
-    main()
-
+print(f"Calculation: {a} + {b} = {result}")
+print("🎉 Program finished successfully!")
